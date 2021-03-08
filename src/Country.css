@@ -1,0 +1,54 @@
+.country{
+    padding: 50px;
+    background-color: #2b3549;
+}
+
+.btn-light{
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.country article .country-details div{
+    margin: 30px 0;
+}
+
+.country article .country-details div h3{
+    font-weight:600;
+    font-size: 30px;
+    margin: 20 0;
+    font-family:  Roboto;
+    margin-bottom: 10px;
+}
+
+.country article .country-details div h5{
+    font-weight:300;
+    font-size: 18px;
+    color:gray;
+}
+
+@media (max-width: 992px){
+    .country article .inner-country{
+        display: grid;
+        align-items: center;
+        justify-content:center;
+    }
+}
+.country-details{
+    display: flex;
+}
+
+.inner-country{
+    padding-right: 2%;
+}
+
+.out-details{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.image-effect{
+    height: 450px;
+    width: 350px;
+    padding-top: 10%;
+}
+
