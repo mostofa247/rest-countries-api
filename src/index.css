@@ -40,6 +40,11 @@ body{
   color:white;
 }
 
+body.light-theme{
+  background-color:#fff;
+  color:white;
+}
+
 .header{
   display: flex;
   align-items: center;
